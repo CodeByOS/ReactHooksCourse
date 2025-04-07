@@ -1,5 +1,11 @@
+import UseStateSyntax from "./useState/UseStateSyntax";
+
 function App() {
-  return <div>React Course</div>;
+  return (
+    <div>
+      <UseStateSyntax />
+    </div>
+  );
 }
 
 export default App;
