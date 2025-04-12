@@ -5,8 +5,14 @@ import UseStateSyntax from "./useState/UseStateSyntax";
 function App() {
   return (
     <div>
-      {/* <UseStateSyntax /> */}
-      {/* <UseStateObj /> */}
+      <UseStateSyntax />
+      <br />
+      <hr />
+      <br />
+      <UseStateObj />
+      <br />
+      <hr />
+      <br />
       <UseStateArray />
     </div>
   );
