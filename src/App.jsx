@@ -5,9 +5,7 @@ import UseStateSyntax from "./useState/UseStateSyntax";
 function App() {
   return (
     <div>
-      {/* <UseStateSyntax /> */}
-      {/* <UseStateObj /> */}
-      <UseStateArray />
+  
     </div>
   );
 }
