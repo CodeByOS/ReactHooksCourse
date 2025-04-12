@@ -1,13 +1,5 @@
-import UseStateArray from "./useState/UseStateArray";
-import UseStateObj from "./useState/UseStateObj";
-import UseStateSyntax from "./useState/UseStateSyntax";
-
 function App() {
-  return (
-    <div>
-  
-    </div>
-  );
+  return <div>React Course</div>;
 }
 
 export default App;
