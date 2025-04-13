@@ -7,33 +7,27 @@ The `useContext` hook in React is a powerful tool that allows components to acce
 Context provides a way to share data globally across your component tree — such as theme, authentication, or language — without having to pass props down manually at every level.
 
 ## 🚀 How useContext Works
-   
-   1. Create the Context
+
+1. Create the Context
 Use `createContext()` to create a context object:
 
-<pre> 
 ```jsx
 import { createContext } from 'react';
 export const LanguageContext = createContext();
 ``` 
-</pre>
 
-    2. Provide the Context
+2. Provide the Context
 
-<pre> 
 ```jsx
 <LanguageContext.Provider value={{ language, toggleLanguage }}>
   {children}
 </LanguageContext.Provider>
 
 ``` 
-</pre>
-
-    3. Consume the Context
+3. Consume the Context
 
 Inside any child component, use the `useContext` hook to access the values:
 
-<pre> 
 ```jsx
 import { useContext } from 'react';
 import { LanguageContext } from './context/LanguageProvider';
@@ -41,7 +35,6 @@ import { LanguageContext } from './context/LanguageProvider';
 const { language, toggleLanguage } = useContext(LanguageContext);
 
 ``` 
-</pre>
 
 ## 🧪 Why use useContext?
 
