@@ -1,5 +1,11 @@
+import ExampleOne from "./useReducer/ExampleOne";
+
 function App() {
-  return <div>React Course</div>;
+  return (
+        <div>
+          <ExampleOne />
+        </div>
+  );
 }
 
 export default App;
