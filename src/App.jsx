@@ -1,5 +1,11 @@
+import Basic from "./useEffect/Basic";
+
 function App() {
-  return <div>React Course</div>;
+  return (
+    <div>
+      <Basic/>
+    </div>
+  );
 }
 
 export default App;
