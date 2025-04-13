@@ -1,9 +1,11 @@
 import ExampleOne from "./useReducer/ExampleOne";
+import ExampleTwo from "./useReducer/ExampleTwo";
 
 function App() {
   return (
         <div>
-          <ExampleOne />
+          {/* <ExampleOne /> */}
+          <ExampleTwo />
         </div>
   );
 }
