@@ -80,7 +80,7 @@ This combo allows you to:
 
 # 📌 Key Takeaways
 
-```t
+```table
 | Concept    | Purpose                                                            |
 |------------|--------------------------------------------------------------------|
 | `useReducer` | Manages complex state transitions based on action types          |
