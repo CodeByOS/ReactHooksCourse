@@ -81,12 +81,13 @@ This combo allows you to:
 # 📌 Key Takeaways
 
 ```markdown
-| Concept     | Purpose                                                   |
-|-------------|-----------------------------------------------------------|
-| useReducer  | Manages complex state transitions based on action types   |
-| useContext  | Shares state and dispatch globally across the component tree |
-| dispatch    | Sends action objects to the reducer                       |
-| Provider    | Makes the state/dispatch accessible to any child components |
+| Concept    | Purpose                                                            |
+|------------|--------------------------------------------------------------------|
+| `useReducer` | Manages complex state transitions based on action types          |
+| `useContext` | Shares state and dispatch globally across the component tree     |
+| `dispatch`   | Sends action objects to the reducer                               |
+| `Provider`   | Makes the state/dispatch accessible to any child components        |
+
 ```
 
 # 🧱 When to Use This Pattern?
