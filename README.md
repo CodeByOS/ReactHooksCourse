@@ -87,7 +87,7 @@ This combo allows you to:
 | `useContext`| Shares state and dispatch globally across the component tree |
 | `dispatch`  | Sends action objects to the reducer                          |
 | `Provider`  | Makes the state/dispatch accessible to any child components  |
-|----------------------------------------------------------------------------|
+------------------------------------------------------------------------------
 ```
 # 🧱 When to Use This Pattern?
 
