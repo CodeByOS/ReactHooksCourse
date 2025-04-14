@@ -1,5 +1,5 @@
 function App() {
-  return <div>React Course</div>;
+  return <div>React Hooks Course</div>;
 }
 
 export default App;
