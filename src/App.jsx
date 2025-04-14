@@ -1,5 +1,11 @@
+import FetchDataWithReducer from "./components/FetchDataWithReducer";
+
 function App() {
-  return <div>React Hooks Course</div>;
+  return (
+    <div>
+      <FetchDataWithReducer />
+    </div>
+  );
 }
 
 export default App;
